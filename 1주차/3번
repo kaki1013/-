@@ -1,0 +1,5 @@
+a,b,c,d = map(int, input().split())
+ab, ac, ad = abs(a-b), abs(a-c), abs(a-d)
+cd, bd, bc = abs(c-d), abs(b-d), abs(b-c)
+ans = max(ab+cd, ac+bd, ad+bc)
+print(ans)
