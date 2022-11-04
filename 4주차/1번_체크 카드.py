@@ -20,13 +20,4 @@ for _ in range(M):
 			q.append(x)
 		else:
 			money -= x
-			
-	temp_q = deque([])
-	for x in q:
-		if money >= x:
-			money -= x
-		else:
-			temp_q.append(x)
-	q = temp_q
-
 print(money)
