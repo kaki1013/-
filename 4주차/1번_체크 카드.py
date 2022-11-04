@@ -12,7 +12,7 @@ for _ in range(M):
 		while q and q[0] <= money:
 			money -= q[0]
 			q.popleft()
-elif cmd == 'pay':
+	elif cmd == 'pay':
 		if money >= x:
 			money -= x
 	elif cmd == 'reservation':	# "대기 목록에 다른 결제가 대기 중이라면.."
